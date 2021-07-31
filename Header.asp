@@ -10,27 +10,26 @@
 </head>
 
 <body>
+    <nav>
+        <label class="logo">Library Management System</label>
+        <ul>
+            <li>
+                <a href="Home.asp" class="active">Home</a>
+            </li>
 
-    <div class="banner">
-        <img src="images/Banner.png" alt="" class="banner-img">
-    </div>
+            <li>
+                <a href="BooksDetail.asp">Books</a>
+            </li>
 
-    <div class="logo">
-        Library Management System
-    </div>
+            <li>
+                <a href="#">Author</a>
+            </li>
 
-    <div class="row">
-        <div class="col-md-12">
-            <!-------------------------Navigation Bar----------------------->
-            <nav class="NavBar">
-                <ul>
-                    <li>
-                        <a href="Home.asp">Main Menu</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+            <li>
+                <a href="#">Publisher</a>
+            </li>
+        </ul>
+    </nav>
 </body>
 
 </html>
